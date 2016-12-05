@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_venue_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.github.diwakar1988.junket.ui.VenueDetailsActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+       <RelativeLayout
+           android:id="@+id/rl_progress_bar"
+           android:layout_width="match_parent"
+           android:layout_height="@dimen/hight_venue_photo_slider"
+           android:background="@android:color/black">
+
+           <ProgressBar
+               android:id="@+id/progress_bar"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:indeterminate="true"
+               android:layout_centerInParent="true"
+               />
+           <com.daimajia.slider.library.SliderLayout
+               android:id="@+id/venue_photo_slider"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:visibility="gone"
+               />
+       </RelativeLayout>
+
+        <com.daimajia.slider.library.Indicators.PagerIndicator
+            android:id="@+id/photo_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            />
+        <include layout="@layout/layout_header_venue_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/tv_people_says"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dim_venue_ui_component_margin"
+            android:layout_marginLeft="@dimen/dim_venue_ui_component_margin"
+            android:textSize="@dimen/text_size_venue_others"
+            android:text="@string/what_people_says"
+            android:visibility="gone"
+            />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_venue_tips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:visibility="gone"
+
+            />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Junket</string>
+
+    <string name="action_filter">Filter</string>
+    <string name="tip_place_holder">One of the top 10 %s in your location.</string>
+    <string name="no_contact_number">No contact number</string>
+    <string name="play_service_not_updated">Google PlayServices need to update, please update it from play store.</string>
+    <string name="play_service_not_found">Google PlayServices Not found, please install it from play store.</string>
+    <string name="oops_went_wrong">Ooops, something went wrong.</string>
+    <string name="select_your_location">Select your location</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="radius">Radius: %d Km</string>
+    <string name="search_string">Search String</string>
+    <string name="text_venue_distance" formatted="false">Its %s km far and now %s.</string>
+    <string name="open">OPEN</string>
+    <string name="closed">CLOSED</string>
+    <string name="tip">TIP: %s</string>
+    <string name="add_review">Add Review</string>
+    <string name="dislike">Dislike</string>
+    <string name="venue_details">Venue Details</string>
+    <string name="what_people_says">What people says</string>
+    <string name="no_internet_connection">No Internet Connection.</string>
+    <string name="retry">Retry</string>
+    <string name="add">Add</string>
+    <string name="type_here">Type here...</string>
+    <string name="action_sync">Sync</string>
+    <string name="review_warning">Your previous review (if any) will be modified.</string>
+    <string name="you_disliked_this_venue" formatted="false">You %s \"%s\"</string>
+    <string name="review_added">Review saved!"</string>
+    <string name="you">You</string>
+    <string name="like">Like</string>
+    <string name="action_search">Search</string>
+    <string name="i_am_looking_for">I\'m looking for...</string>
+    <string name="loading">Loading...</string>
+    <string name="no_results_from_server">No results from server.</string>
+    <string name="settings">Settings</string>
+
+    <string name="title_activity_zoom_image">ZoomImageActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="use_current_location">Use current location</string>
+    <string name="select_custom_location">Select a custom location</string>
+    <string name="records_per_page">Records/page: %d</string>
+    <string name="photos_per_page">Photos/page: %d</string>
+    <string name="short_list">Shortlist</string>
+    <string name="marked_favorite">Marked as Favorite!</string>
+    <string name="already_marked_favorite">Already marked as Favorite!</string>
+    <string name="favorites">Favorites</string>
+    <string name="favorite_venues">Favorite Venues</string>
+    <string name="no_more_favorite_venues">No more favorite venues</string>
+    <string name="delete">Delete</string>
+    <string name="warning_delete_all_favorite_venues">Sure! You want to delete all favorite venues?</string>
+    <string name="no">NO</string>
+    <string name="yes">YES</string>
+    <string name="invalid_query">Invalid search input. Enter at least 3 chars.</string>
+    <string name="location_settings_change_unavailable">Location settings change unavailable, please turn on location manually.</string>
+    <string name="directions">Directions</string>
+    <string name="venue_list_empty_view_title">Sorry! No results</string>
+    <string name="venue_list_empty_view_desc">Search for more general (like Food, Coffee, or Nightlife)</string>
+    <string name="favorite_venue_list_empty_view_title">Sorry! No results</string>
+    <string name="favorite_venue_list_empty_view_desc">Please shortlist some venues</string>
+    <string name="no_address">No address</string>
+    <string name="no_location_selected">Please allow all location permissions and try again.</string>
+    <string name="clear_and_reload"><![CDATA[Clear & Reload]]></string>
+
+
+</resources>

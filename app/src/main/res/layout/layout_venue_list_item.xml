@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"     android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="@android:color/white"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardUseCompatPadding="true"
+    card_view:elevation="8dp"
+    android:id="@+id/layout_venue_list_item">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="?android:attr/selectableItemBackground">
+
+        <LinearLayout
+            android:id="@+id/ll_thumb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/iv_venue_thumb"
+                android:layout_width="@dimen/dim_venue_thumb"
+                android:layout_height="@dimen/dim_venue_thumb"
+                android:layout_marginRight="@dimen/dim_venue_ui_component_margin"
+                />
+            <include
+                layout="@layout/layout_venue_details"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dim_venue_ui_component_margin"/>
+
+            <TextView
+                android:id="@+id/tv_venue_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8.5"
+                android:padding="5dp"
+                android:background="@android:color/holo_green_dark"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_venue_ratings"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_venue_distance"
+            android:layout_below="@+id/ll_thumb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dim_venue_ui_component_margin"
+            android:textSize="@dimen/text_size_venue_others"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="@string/text_venue_distance"
+            />
+        <TextView
+            android:id="@+id/tv_venue_tip"
+            android:layout_below="@+id/tv_venue_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dim_venue_ui_component_margin"
+            android:textSize="@dimen/text_size_venue_others"
+            android:text="@string/tip_place_holder"
+            android:maxLines="3"
+            android:ellipsize="end"
+            />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
