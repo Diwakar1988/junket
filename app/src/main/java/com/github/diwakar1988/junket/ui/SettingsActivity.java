@@ -225,7 +225,7 @@ public class SettingsActivity extends AppBaseActivity implements View.OnClickLis
 
             }else{
                 //reset values
-                if (mSettings.getCustomLocation().hasValues()){
+                if (mSettings.getCustomLocation()!=null && mSettings.getCustomLocation().hasValues()){
                     mTVCustomLocation.setText(mSettings.getCustomLocation().address);
                 }else{
                     mTVCustomLocation.setText(getString(R.string.select_custom_location));

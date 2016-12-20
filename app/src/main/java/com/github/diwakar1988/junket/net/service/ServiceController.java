@@ -9,6 +9,7 @@ import com.github.diwakar1988.junket.util.Utils;
 import java.io.File;
 import java.io.IOException;
 import java.io.ObjectStreamException;
+import java.io.Serializable;
 import java.util.Map;
 
 import okhttp3.Cache;
@@ -24,7 +25,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
  * Created by diwakar.mishra on 02/12/16.
  */
 
-public class ServiceController {
+public class ServiceController implements Serializable{
 
     private static final String TAG = ServiceController.class.getSimpleName();
 

@@ -14,6 +14,7 @@ import com.github.diwakar1988.junket.net.service.ServiceController;
 public class Junket extends Application {
     private static Junket instance;
     private Handler handler;
+
     @Override
     public void onCreate() {
         super.onCreate();
